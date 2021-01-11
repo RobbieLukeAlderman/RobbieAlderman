@@ -161,7 +161,9 @@ export default function Home() {
     <br />
     <p style={paragraphStyles}>
       <span class="email" style={{color: "lightgrey", fontWeight: 300,}}>
-        robbielalderman@gmail.com
+        <a href="mailto:robbielalderman@gmail.com">
+          robbielalderman@gmail.com
+        </a>
       </span>
       <br />
       <span class="email" style={{color: "lightgrey", fontWeight: 300,}}>
