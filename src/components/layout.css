@@ -37,7 +37,6 @@ a {
 .preView {
   height: 300px;
   width: 300px;
-  margin-left: 11px;
   cursor: pointer;
 }
 .panel {
@@ -48,7 +47,7 @@ a {
   line-height: initial;
 }
 .shortDesc {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #9F9F9F;
   cursor: text;

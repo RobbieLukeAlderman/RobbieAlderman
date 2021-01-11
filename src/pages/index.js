@@ -8,7 +8,6 @@ import Layout from "../components/layout"
 // styles
 const pageStyles = {
   color: "#232129",
-  padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {  /* Title */
