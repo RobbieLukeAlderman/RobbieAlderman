@@ -74,7 +74,7 @@ export default function Home() {
   <main style={pageStyles}>
     <title>Rob - home</title>
     <h1 style={headingStyles}>
-      Robbie Alderman
+      Rob
     <br />
     <p class="shortDesc">
       Visual Identity
