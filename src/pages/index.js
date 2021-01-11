@@ -1,4 +1,9 @@
 import * as React from "react"
+import mainLogo from "../images/icon.png"
+import GHST from "../images/ghst-responsive-web-design-behance-robbbb-robbie-alderman.png"
+import DR from "../images/garment-clothing-dead-roses-print-design-robbbb-robbie-alderman.png"
+import LAP from "../images/Visual-identity-LAP-roof-repair-mockup-process-robbbb-robbie-alderman.png"
+import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
@@ -6,16 +11,20 @@ const pageStyles = {
   padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
-const headingStyles = {
+const headingStyles = {  /* Title */
   marginTop: 0,
-  marginBottom: 64,
   maxWidth: 320,
+  color: "#000000",
 }
-const headingAccentStyles = {
-  color: "#663399",
+const headingAccentStyles = {  /* Subtitle */
+  color: "#88838B",
+  fontWeight: 100,
+  fontSize: 16,
 }
+
 const paragraphStyles = {
   marginBottom: 48,
+  fontSize: 14,
 }
 const codeStyles = {
   color: "#8A6534",
@@ -57,94 +66,114 @@ const docLink = {
   url: "https://www.gatsbyjs.com/docs/",
   color: "#8954A8",
 }
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#000000",
-  },
-]
 
 // markup
-const IndexPage = () => {
-  return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
-  )
-}
 
-export default IndexPage
+export default function Home() {
+  return <Layout>
+
+  <main style={pageStyles}>
+    <title>Rob - home</title>
+    <h1 style={headingStyles}>
+      Robbie Alderman
+    <br />
+    <p class="shortDesc">
+      Visual Identity
+      &nbsp;
+      <span class="divide">|</span>
+      &nbsp;
+      Keynotes
+      &nbsp;
+      <span class="divide">|</span>
+      &nbsp;
+      Infographics
+      &nbsp;
+      <span class="divide">|</span>
+      &nbsp;
+      UI Design
+      &nbsp;
+      <span class="divide">|</span>
+      &nbsp;
+      Print
+      &nbsp;
+      <span class="divide">|</span>
+      &nbsp;
+      Illustration
+      &nbsp;
+    </p>
+    </h1>
+    <p style={paragraphStyles}>
+      <span class="email">
+        <a href="mailto:robbielalderman@gmail.com">
+          robbielalderman@gmail.com
+        </a>
+      </span>
+      <br />
+      <span class="socialLink" id="linkOrange">
+        <a href="https://www.behance.net/robbbb">
+          Behance
+        </a>
+      </span>
+      &nbsp;&nbsp; ⎯ &nbsp;&nbsp;
+      <span class="socialLink" id="linkRed">
+        <a href="https://www.instagram.com/rob.xvi/">
+          Instagram
+        </a>
+      </span>
+    </p>
+    <div class="panel">
+    <a href="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN">
+      <img
+        class="preView"
+        alt="preview work #1"
+        src={GHST}
+      />
+    </a>
+    <a href="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">
+      <img
+        class="preView"
+        alt="preview work #1"
+        src={DR}
+      />
+    </a>
+    </div>
+
+    <div class="panel">
+    <a href="https://www.behance.net/gallery/89631845/LAP-Roof-Repair-Design-Build">
+      <img
+        class="preView"
+        alt="preview work #1"
+        src={LAP}
+      />
+    </a>
+    <img
+      class="preView"
+      alt="preview work #1"
+      src={LAP}
+    />
+    </div>
+    <div>
+    <img
+      class="robLogo"
+      alt="designbyrob Logo - Robbie Alderman"
+      src={mainLogo}
+    />
+    <br />
+    <p style={paragraphStyles}>
+      <span class="email" style={{color: "lightgrey", fontWeight: 300,}}>
+        robbielalderman@gmail.com
+      </span>
+      <br />
+      <span class="email" style={{color: "lightgrey", fontWeight: 300,}}>
+        07714 389 907
+      </span>
+      <br />
+      <span class="email" style={{color: "lightgrey", fontWeight: 300,}}>
+        Highbridge, Somerset
+      </span>
+    </p>
+    </div>
+  </main>
+
+  </Layout>
+}

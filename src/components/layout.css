@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+
+*{
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  display: inline;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.robLogo {
+  height: 45px;
+  width: 115px;
+  margin-top: 50px;
+  margin-left: 4px;
+  cursor: pointer;
+  filter: grayscale();
+  opacity: 0.5;
+}
+.email {
+  padding: 2px 8px 2px 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.2s ease-out;
+}
+.email:hover {
+  font-size: 15px;
+  transition: 0.3s ease-out;
+  padding: 5px 9px 5px 4px;
+  color: #FFBF12;
+
+}
+.preView {
+  height: 300px;
+  width: 300px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+.panel {
+  margin-bottom: 7px;
+  margin-left: -10px;
+}
+.subtitle {
+  line-height: initial;
+}
+.shortDesc {
+  font-size: 16px;
+  font-weight: 300;
+  color: #9F9F9F;
+  cursor: wait;
+}
+.divide {
+  color: #E84D4D;
+  font-weight: 400;
+}
+.socialLink {
+  cursor: pointer;
+  font-weight: 400;
+  transition: 0.2s ease-out;
+  padding: 2px 8px 2px 8px;
+  text-decoration: underline;
+}
+.socialLink:hover {
+  color: #6299F2;
+  padding: 5px 9px 5px 9px;
+  border-radius: 14px;
+  transition: 0.2s ease-in;
+  text-align: center;
+  font-size: 15px;
+}
+#linkOrange:hover {
+transition: 0.2s ease-in;
+}
+#linkRed:hover {
+transition: 0.2s ease-in;
+color: #E84D4D;
+}
+p {
+  transition: 0.3s ease-in;
+  font-family: 'Heebo', sans-serif;
+}
