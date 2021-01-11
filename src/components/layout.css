@@ -41,6 +41,12 @@ a {
   height: 300px;
   width: 300px;
   cursor: pointer;
+  filter: grayscale();
+  transition: 0.2s ease-out;
+}
+.preView:hover {
+  filter: none;
+  transition: 0.4s ease-out;
 }
 .panel {
   margin-bottom: 7px;
