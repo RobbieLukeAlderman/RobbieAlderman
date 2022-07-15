@@ -84,7 +84,27 @@ export default function Home() {
     <div>
     <br />
     <p style={descriptionStyle}>Scroll to see some of my work, feel free to get in touch, <br/>just let me know what you or your business is looking for</p>
+    <Link to="/contact/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
+      work with me &nbsp;→
+    </button></Link>
+    <br />
+    <Link to="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN">
+      <img class="imgSize" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/85c30d93662449.5e6a46f20155d.png
+" style={{marginTop: "25px"}} />
+    </Link>
 
+    <br />
+
+    <Link to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">
+      <img class="imgSize" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1204b172178557.5bdf0267d45b4.png" />
+    </Link>
+
+    <br />
+    <Link to="/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
+    &nbsp; ↑ &nbsp;
+    </button></Link>
+    <br /> 
+    <br />
     <p style={paragraphStyles}>
       <span class="email" style={{color: "black", fontWeight: 300,}}>
         <a href="mailto:robbielalderman@gmail.com">
@@ -96,29 +116,6 @@ export default function Home() {
         07714 389 907
       </span>
     </p>
-    <br />
-    <Link to="/contact/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
-      work with me &nbsp;→
-    </button></Link>
-    <br />
-
-    <Link to="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN">
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/85c30d93662449.5e6a46f20155d.png
-" style={{height: "40vh", width: "40vw", marginTop: "25px"}} />
-    </Link>
-
-    <br />
-
-    <Link to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1204b172178557.5bdf0267d45b4.png" style={{height: "45vh", width: "35vw"}} />
-    </Link>
-
-    <br />
-    <Link to="/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
-    &nbsp; ↑ &nbsp;
-    </button></Link>
-    <br /> 
-    <br />
     <br />
 
     <div class="testclass"><p class="testclass">
