@@ -104,13 +104,13 @@ export default function Home() {
 
     <Link to="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN">
       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/85c30d93662449.5e6a46f20155d.png
-" style={{height: 400, width: 450, marginTop: "25px"}} />
+" style={{height: "50vh", width: "40vw", marginTop: "25px"}} />
     </Link>
 
     <br />
 
     <Link to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1204b172178557.5bdf0267d45b4.png" style={{height: 550, width: 400}} />
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1204b172178557.5bdf0267d45b4.png" style={{height: "55vh", width: "35vw"}} />
     </Link>
 
     <br />
