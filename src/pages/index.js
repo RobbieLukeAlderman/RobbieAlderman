@@ -114,13 +114,18 @@ export default function Home() {
     </Link>
 
     <br />
-    <Link to="/contact/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
+    <Link to="/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
     &nbsp; ↑ &nbsp;
     </button></Link>
     <br /> 
     <br />
     <br />
-    
+
+    <div class="testclass"><p class="testclass">
+    &#169; Robbie L Alderman
+    </p>
+    </div>
+
     </div>
   </main>
 

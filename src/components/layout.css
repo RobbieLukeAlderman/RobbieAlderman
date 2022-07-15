@@ -4,6 +4,11 @@
 *{
   text-align: center;
 }
+
+img{
+  display: inline-block;
+}
+
 button {
  align-items: center;
  padding: 10px 70px 10px 70px;
@@ -26,6 +31,16 @@ button:hover {
 .buttonSP:hover{
   background-color: #C0C0C0;
   color: white;
+}
+.testclass {
+  background-color:black;
+  height: 50px;
+  width: 100%;
+  padding: none;
+  margin: none;
+  color: white;
+  font-size: 12px;
+  line-height: 4;
 }
 h1 {
   text-align: center;
