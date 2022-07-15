@@ -56,8 +56,7 @@ const docLinkStyle = {
 
 const descriptionStyle = {
   color: "#232129",
-  fontSize: "16px",
-  marginTop: "30px",
+  fontSize: "14px",
 }
 
 const docLink = {
@@ -65,6 +64,7 @@ const docLink = {
   url: "https://www.gatsbyjs.com/docs/",
   color: "#8954A8",
 }
+
 
 // markup
 
@@ -82,45 +82,23 @@ export default function Home() {
     
 
     <div>
-    <br />
-    <p style={descriptionStyle}>Scroll to see some of my work, feel free to get in touch, <br/>just let me know what you or your business is looking for</p>
-
     <p style={paragraphStyles}>
-      <span class="email" style={{color: "black", fontWeight: 300,}}>
-        <a href="mailto:robbielalderman@gmail.com">
-          robbielalderman@gmail.com
-        </a>
-      </span>
-      <br />
-      <span class="email" style={{color: "black", fontWeight: 300,}}>
+       <span class="email" style={{color: "black", fontWeight: 300,fontSize: 20,}}>
+          <a href="mailto:robbielalderman@gmail.com">
+            robbielalderman@gmail.com
+          </a>
+        </span>
+        <br />
+        <span class="email" style={{color: "black", fontWeight: 300,fontSize: 20,}}>
         07714 389 907
-      </span>
+        </span>
+        <br />
     </p>
-    <br />
-    <Link to="/contact/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
-      work with me &nbsp;→
+    <Link to="/"><button class="buttonSP" style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
+   ← back &nbsp;
     </button></Link>
-    <br />
-
-    <Link to="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN">
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/85c30d93662449.5e6a46f20155d.png
-" style={{height: 500, width: 550, marginTop: "25px"}} />
-    </Link>
-
-    <br />
-
-    <Link to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1204b172178557.5bdf0267d45b4.png" style={{height: 650, width: 500}} />
-    </Link>
-
-    <br />
-    <Link to="/contact/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
-    &nbsp; ↑ &nbsp;
-    </button></Link>
-    <br /> 
-    <br />
-    <br />
-    
+      <br /> 
+      <br />
     </div>
   </main>
 
