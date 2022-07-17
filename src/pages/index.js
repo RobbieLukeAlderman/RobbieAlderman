@@ -50,7 +50,8 @@ const linkStyle = {
 
 const captionStyle = {
   color: "#666666",
-  fontSize: "12px",
+  fontSize: "14px",
+  margin: "auto",
 }
 
 const docLinkStyle = {
@@ -75,7 +76,8 @@ const docLink = {
 
 const containerStyle = {
   margin: "auto",
-  width: "60%",
+  width: "75%",
+  display: "table",
 }
 
 // markup
@@ -86,28 +88,34 @@ export default function Home() {
   <main style={pageStyles}>
     <title>Rob - home</title>
     <h1 style={headingStyles}>
-    <Link to="/">&nbsp;r.&nbsp;</Link>
+    <Link to="/">&nbsp; r. &nbsp;</Link>
     </h1>
     <br />
     <div style={containerStyle}>
     <br />
     <br />
-    <p style={descriptionStyle}>
-      <Link class="navigation" to="https://vimeo.com/730701135">
-        Animation Link (Indicia)
+    <ul class="navBar">
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://vimeo.com/730701135">
+      Animation Link (Indicia)
       </Link>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <Link class="navigation" to="https://github.com/RobbieLukeAlderman">
-        Github
+    </li>
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://github.com/RobbieLukeAlderman">
+      Github
       </Link>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <Link class="navigation" to="https://www.behance.net/robbbb">
-        Behance
+    </li>
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://www.behance.net/robbbb">
+      Behance
       </Link>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <Link class="navigation" to="https://www.linkedin.com/in/robbbb/">
-        LinkedIn
-      </Link> </p>
+    </li>
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://www.linkedin.com/in/robbbb/">
+      LinkedIn
+      </Link>
+    </li>
+      </ul>
       <br />
       <p style={descriptionStyle}>Scroll to see some of my work, feel free to get in touch, just let me know what you or your business is looking for!</p>
       <br />
@@ -125,7 +133,7 @@ WEB DESIGN AND DEVELOPMENT
 TOOLS USED : <br />
 [ ADOBE XD , ADOBE PHOTOSHOP , ATOM , GATSBY ]<br />
 [ JAVASCRIPT , REACTJS , HTML5 , CSS3 ]<br />
-[ <Link class="navigation" to="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN">LINK TO</Link> ] </p>
+[ <Link class="navigationStyle" to="https://www.behance.net/gallery/93662449/GHST-WEB-DESIGN"> LINK TO </Link> ] </p>
     <br />
     <br />
     <Link to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">
@@ -133,11 +141,11 @@ TOOLS USED : <br />
     </Link>
     <br />
   <p class="textAlign" style={captionStyle}>SMNLT BRAND IDENTITY<br />
-MARKETING - DESIGN - PHOTOGRAPHY - PRINT
+MARKETING - DESIGN - PRINT<br />
 KEY POINTS : <br />
 [ ADOBE ILLUSTRATOR , ADOBE PHOTOSHOP , LIGHTROOM ]<br />
 [ TRAVEL , LIVE , CREATE , PRODUCE ]<br />
-[ <Link class="navigation" to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design">LINK TO</Link> ] </p>
+[ <Link class="navigationStyle" to="https://www.behance.net/gallery/72178557/SMNLT-Apparel-Design"> LINK TO </Link> ] </p>
     <br />
     <br />
     <br />

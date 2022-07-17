@@ -39,9 +39,29 @@ button:hover {
   background-color: #C0C0C0;
   color: white;
 }
+.navBar {
+  margin: auto;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-left: -50px;
+}
+
+ul .navBar {
+  list-style:none;
+  text-align:center;
+  padding-top: 20px;
+  margin: 0;
+  }
+  .navBar li {
+    display: inline;
+  }
+
 
 .imgSize {
-  width:42%;
+  width:60%;
 
 }
 .testclass {
@@ -54,20 +74,24 @@ button:hover {
   font-size: 12px;
   line-height: 4;
 }
-.navigation {
+.navigationStyle {
   font-weight: 400;
   color: #0060df;
   font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
-.navigation:hover {
+.navigationStyle:hover {
   color:#0b6bea;
   transition: .5s ease-in;
   text-decoration: underline;
 }
+
 .textAlign {
   text-align: left;
-  margin: 0 auto;
-  display: inline;
+  padding-left: 25px;
+  width: 50%;
 }
 h1 {
   text-align: center;
