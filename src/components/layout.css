@@ -26,7 +26,8 @@ button {
 }
 button:hover {
   cursor: pointer;
-  background-color: #C0C0C0 ;
+  border: 1px solid #2358C2;
+  color: #2358C2;
   padding: 11px 72px 11px 72px;
   transition: 0.25s ease-out;
 }
@@ -52,6 +53,21 @@ button:hover {
   color: white;
   font-size: 12px;
   line-height: 4;
+}
+.navigation {
+  font-weight: 400;
+  color: #0060df;
+  font-size: 14px;
+}
+.navigation:hover {
+  color:#0b6bea;
+  transition: .5s ease-in;
+  text-decoration: underline;
+}
+.textAlign {
+  text-align: left;
+  margin: 0 auto;
+  display: inline;
 }
 h1 {
   text-align: center;
@@ -122,28 +138,6 @@ a {
 .divide {
   color: #E84D4D;
   font-weight: 400;
-}
-.socialLink {
-  cursor: pointer;
-  font-weight: 400;
-  transition: 0.2s ease-out;
-  padding: 2px 8px 2px 8px;
-  text-decoration: underline;
-}
-.socialLink:hover {
-  color: #6299F2;
-  padding: 5px 9px 5px 9px;
-  border-radius: 14px;
-  transition: 0.2s ease-in;
-  text-align: center;
-  font-size: 15px;
-}
-#linkOrange:hover {
-  transition: 0.2s ease-in;
-}
-#linkRed:hover {
-  transition: 0.2s ease-in;
-  color: #E84D4D;
 }
 p {
   transition: 0.3s ease-in;
