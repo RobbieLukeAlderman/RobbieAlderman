@@ -2,7 +2,6 @@ import * as React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 
-
 // styles
 const pageStyles = {
   color: "#232129",
@@ -35,13 +34,14 @@ const paragraphStyles = {
 //   borderRadius: 4,
 // }
 
+
 // STYLE NOT IN USE
 // const listStyles = {
 //   marginBottom: 96,
 //   paddingLeft: 0,
 // }
 
-// STYLE NOT IN USE
+// STYLE NOT IN USE 
 // const listItemStyles = {
 //   fontWeight: "300",
 //   fontSize: "24px",
@@ -57,6 +57,15 @@ const paragraphStyles = {
 // }
 
 // NOT IN USE
+// const captionStyle = {
+//   color: "#666666",
+//   fontSize: "14px",
+//   margin: "auto",
+//   minWidth: "90%",
+//   maxWidth: "50%",
+// }
+
+// NOT IN USE
 // const docLinkStyle = {
 //   ...linkStyle,
 //   listStyleType: "none",
@@ -65,7 +74,11 @@ const paragraphStyles = {
 
 const descriptionStyle = {
   color: "#232129",
-  fontSize: "14px",
+  fontSize: "16px",
+  marginTop: "30px",
+  minWidth: "85%",
+  maxWidth: "85%",
+  margin: "auto",
 }
 
 // STYLE NOT IN USE
@@ -85,7 +98,7 @@ const containerStyle = {
 export default function Home() {
   return <Layout>
 
-  <main style={pageStyles}>
+<main style={pageStyles}>
     <title>Contact - Rob</title>
     <h1 style={headingStyles}>
       <Link to="/">
@@ -123,70 +136,71 @@ export default function Home() {
       </li>
     </ul>
     <div style={{containerStyle}}>
-      <h2 class="h2pStyle">Contact</h2>
+      <h2 class="h2pStyle">Clock ( JS )</h2>
       <p class="p2Style">
-        I love connecting and collaborating with like-minded people,
-        building a team of creatives and completing a project as a team.
-        However, if you are looking for advice, or help with a design project
-        don't hesitate to send me a message!<br/><br/>I specialise in Print,
-        Infographics, Marketing material, Signage and many more!
+        Simple clock with JAVASCRIPT, HTML5 & CSS - Created thanks to <Link to="https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/">GeeksforGeeks</Link> tutorial. 
       </p>
-    <div class="formContainer">
-      <form type="text" name="Contact Form" method="POST" data-netlify="true" action="/ty/" class="contactForm">
-        <input type="hidden" name="form-name" value="Contact Form" />
-        <div>
-          <label htmlFor="email">Email:</label><br/>
-          <input type="email" name="email" class="formStyle" placeholder="Your Email..."/>
-        </div>
-        <br/><br />
-        <div>
-        <label htmlFor="message ">Message:</label><br/>
-          <textarea name="message" class="formStyle" placeholder="Message..." />
-        </div>
-        <br /><br /><br />
-        <button type="submit"
-        class="buttonForm"
-        style={{float: "left", marginBottom: "35px"}}>
-          Send
-        </button>
-      </form>
-    </div>
-    <h2 class="h2Style">My Details </h2>
-    <p>
-      <span class="email"
-      style={{color: "black", fontWeight: 300,fontSize: 16,}}>
-        <a href="mailto:robbielalderman@gmail.com">
-          Rob Alderman <br /> 
-          07714 389 907 <br />
-          Highbridge, Somerset <br />
-          robbielalderman@gmail.com 
-        </a>
-      </span>
       <br />
-      <span class="email"
-      style={{color: "black", fontWeight: 300,fontSize: 16,}}>
-        <Link class="contLink" to="https://www.linkedin.com/in/robbbb/">
-          LinkedIn
-        </Link>
-        <br /> 
-        <Link class="contLink" to="https://github.com/RobbieLukeAlderman">
-          Github
-        </Link> 
-        <br /> 
-        <Link class="contLink" to="https://www.behance.net/robbbb">
-          Behance
-        </Link> 
-        <br /> 
-        <Link class="contLink" to="https://vimeo.com/user180611419">
-          Vimeo
-        </Link>
-        <br /> 
-        <Link class="contLink" to="https://www.instagram.com/rob.design.xvi/">
-          Instagram
-        </Link>
-      </span>
+      <p class="codepen"
+         data-height="300"
+        data-default-tab="html,result"
+        data-slug-hash="jOzBOKL"
+        data-user="robbielukealderman"
+        style={{height: "300px",
+                boxSizing: "border-box",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "1em 0",
+                padding: "1em"}}>
+        <span>
+          <Link to="https://codepen.io/robbielukealderman/pen/jOzBOKL">
+            Clock w/ JS
+          </Link> 
+            by Rob 
+          <Link to="https://codepen.io/robbielukealderman">
+            @robbielukealderman 
+          </Link>
+            on
+          <Link to="https://codepen.io">
+            CodePen
+          </Link>.
+        </span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      <br /> <br />
+      <h2 class="h2pStyle">Stopwatch ( JS )</h2>
+      <p class="p2Style">
+        Simple stopwatch with JAVASCRIPT, HTML5 & CSS. 
+      </p>
       <br />
-    </p>
+      <p class="codepen"
+         data-height="300"
+        data-default-tab="html,result"
+        data-slug-hash="XWVKggN"
+        data-user="robbielukealderman"
+        style={{height: "300px",
+                boxSizing: "border-box",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "1em 0",
+                padding: "1em"}}>
+        <span>
+          <Link to="https://codepen.io/robbielukealderman/pen/XWVKggN">
+            Stopwatch w/ JS
+          </Link> 
+            by Rob 
+          <Link to="https://codepen.io/robbielukealderman">
+            @robbielukealderman 
+          </Link>
+            on
+          <Link to="https://codepen.io">
+            CodePen
+          </Link>.
+        </span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> 
     <Link to="/">
       <button class="buttonSP"
       style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
@@ -196,19 +210,6 @@ export default function Home() {
     <br /> 
     <br />
     <br />
-
-  <p class="codepen"
-  data-height="300"
-  data-default-tab="html,result"
-  data-slug-hash="jOzBOKL"
-  data-user="robbielukealderman"
-  style={{height: "300px", boxSizing: "border-box", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid", margin: "1em 0", padding: "1em"}}>
-  <span><Link to="https://codepen.io/robbielukealderman/pen/jOzBOKL">
-  Clock w/ JS</Link> by Rob <Link to="https://codepen.io/robbielukealderman">@robbielukealderman </Link>
-   on <Link to="https://codepen.io">CodePen</Link>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
     <div class="footer">
       <p> &#169; Robbie L Alderman</p>
       <p style={paragraphStyles}>
@@ -230,3 +231,4 @@ export default function Home() {
 
   </Layout>
 }
+
