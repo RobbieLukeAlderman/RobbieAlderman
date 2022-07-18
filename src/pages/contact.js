@@ -74,31 +74,107 @@ export default function Home() {
   <main style={pageStyles}>
     <title>Rob - home</title>
     <h1 style={headingStyles}>
-    <Link to="/">&nbsp;r.&nbsp;</Link>
+    <Link to="/">&nbsp; r. &nbsp;</Link>
     </h1>
     <br />
-    
-  
-    
-
+    <br />
+    <br />
+    <ul class="navBar">
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://vimeo.com/730701135">
+      Animation Link (Indicia)
+      </Link>
+    </li>
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://github.com/RobbieLukeAlderman">
+      Github
+      </Link>
+    </li>
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://www.behance.net/robbbb">
+      Behance
+      </Link>
+    </li>
+    <li class="navfix" style={descriptionStyle}>
+      <Link class="navigationStyle" to="https://www.linkedin.com/in/robbbb/">
+      LinkedIn
+      </Link>
+    </li>
+      </ul>
     <div>
-    <p style={paragraphStyles}>
-       <span class="email" style={{color: "black", fontWeight: 300,fontSize: 20,}}>
+  <h2 style={{marginLeft: "-15px",width: "35%",marginBottom: "20px", marginTop: "30px", margin: "auto", textAlign: "left"}}>Contact</h2>
+  <p style={{width: "35%",marginBottom: "10px", margin: "auto", textAlign: "left", fontSize: "16px",marginBottom: "25px"}}>
+    I love connecting and collaborating with like-minded people,
+    building a team of creatives and completing a project as a team.
+    However, if you are looking for advice, or help with a design project
+    don't hesitate to send me a message!<br/><br/>I specialise in Print,
+    Infographics, Marketing material, Signage and many more!</p>
+<div class="formContainer">
+<form name="Contact Form" method="POST" data-netlify="true" action="/thank-you" class="contactForm">
+  <input type="hidden" name="form-name" value="Contact Form" />
+  <div>
+    <label>Email:</label><br/>
+    <input type="email" name="email" class="formStyle" placeholder="Your Email..."/>
+  </div>
+  <br/><br />
+  <div>
+    <label>Message:</label><br/>
+    <textarea name="message" class="formStyle" placeholder="Message..." />
+  </div><br /><br /><br />
+  <button type="submit" class="buttonForm" style={{float: "left", marginBottom: "35px"}}>Send</button>
+</form>
+</div>
+  <h2 style={{width: "30%",marginTop: "45px", margin: "auto", marginTop: "20px", textAlign: "left"}}>My Details  </h2>
+    <p>
+       <span class="email" style={{color: "black", fontWeight: 300,fontSize: 16,}}>
           <a href="mailto:robbielalderman@gmail.com">
-            robbielalderman@gmail.com
+          Rob Alderman <br /> 07714 389 907 <br />Highbridge, Somerset <br />robbielalderman@gmail.com 
           </a>
         </span>
         <br />
-        <span class="email" style={{color: "black", fontWeight: 300,fontSize: 20,}}>
-        07714 389 907
+        <span class="email" style={{color: "black", fontWeight: 300,fontSize: 16,}}>
+           <Link class="contLink" to="https://www.linkedin.com/in/robbbb/">
+            LinkedIn
+          </Link>
+          <br /> 
+          <Link class="contLink" to="https://github.com/RobbieLukeAlderman">
+            Github
+          </Link> 
+          <br /> 
+          <Link class="contLink" to="https://www.behance.net/robbbb">
+            Behance
+          </Link> 
+          <br /> 
+          <Link class="contLink" to="https://vimeo.com/user180611419">
+            Vimeo
+          </Link>
+          <br /> 
+          <Link class="contLink" to="https://www.instagram.com/rob.design.xvi/">
+            Instagram
+          </Link>
         </span>
         <br />
     </p>
     <Link to="/"><button class="buttonSP" style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
    ← back &nbsp;
     </button></Link>
-      <br /> 
+    <br /> 
+    <br />
+    <br />
+    <div class="footer">
+      <p> &#169; Robbie L Alderman</p>
+      <p style={paragraphStyles}>
+      <span class="contact" style={{fontWeight: 300,}}>
+        <a href="mailto:robbielalderman@gmail.com">
+          robbielalderman@gmail.com
+        </a>
+      </span>
       <br />
+      <span class="contact" style={{fontWeight: 300,}}>
+        07714 389 907
+      </span>
+    </p>
+    </div>
     </div>
   </main>
 
