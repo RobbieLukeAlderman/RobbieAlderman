@@ -130,6 +130,7 @@ button:hover {
   padding: 20px;
   font-size: 20px;
   border-radius: 0px;
+  color: black;
 }
 .buttonForm:hover {
   background-color: #2358C2; 
