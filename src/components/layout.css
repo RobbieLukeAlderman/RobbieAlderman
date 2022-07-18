@@ -29,6 +29,11 @@
 img{
   display: inline-block;
 }
+.h3Style {
+  font-size: 80px;
+  color: #2358C2;
+  text-transform: uppercase;
+}
 .h2pStyle {
   margin-left: -15px;
   width: 40%;
@@ -127,8 +132,8 @@ button:hover {
   border-radius: 0px;
 }
 .buttonForm:hover {
-  background-color: #2358C2;  
-  color: white;
+  background-color: #2358C2; 
+  color: black;
 }
 .navBar {
   margin: auto;

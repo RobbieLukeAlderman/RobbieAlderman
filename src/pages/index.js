@@ -89,7 +89,7 @@ export default function Home() {
   return <Layout>
 
   <main style={pageStyles}>
-    <title>Rob - home</title>
+    <title>Home - Rob</title>
     <h1 style={headingStyles}>
     <Link to="/">&nbsp; r. &nbsp;</Link>
     </h1>
