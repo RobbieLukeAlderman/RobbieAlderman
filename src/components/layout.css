@@ -7,10 +7,23 @@
     font-size: 16px;
     width: 40%;
   }
-
   .formContainer {
     width: 40%;
   }
+  .embedCodeStyle {
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+  }
+  .h2pEmbedStyle {
+    margin-left: -15px;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin: auto;
+    text-align: left;
+  }
+
 }
 
 @media screen and (max-width: 699px) { /* screen size lesser than 699px */
@@ -19,9 +32,20 @@
     font-size: 18px;
     width: 70%;
   }
-
   .formContainer {
     width: 70%;
+  }
+  .embedCodeStyle {
+    width: 85%;
+    height: 450px;
+    overflow: hidden;
+  }
+  .h2pEmbedStyle {
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin: auto;
+    text-align: center;
   }
 }
 
@@ -38,7 +62,6 @@ img{
   color: #2358C2;
   text-transform: uppercase;
 }
-
 .h2pStyle {
   margin-left: -15px;
   width: 40%;
@@ -118,7 +141,22 @@ textarea::placeholder {
   font-size: 16px;  
   text-transform: lowercase;
 }
-
+.linkQuote {
+  color: blue;
+  font-weight: 100;
+  text-decoration: underline;
+  transition: 0.5s ease-out;
+  text-decoration-thickness: 1px;
+}
+.linkQuote:hover {
+  font-weight: 500;
+  transition: 0.5s ease-in;
+}
+.linkTitle:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
 button {
  align-items: center;
  padding: 10px 70px 10px 70px;

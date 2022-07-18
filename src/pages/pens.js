@@ -1,6 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
+
 import { Link } from "gatsby"
+
 
 // styles
 const pageStyles = {
@@ -136,71 +138,33 @@ export default function Home() {
       </li>
     </ul>
     <div style={{containerStyle}}>
-      <h2 class="h2pStyle">Clock ( JS )</h2>
+      <h2 class="h2pEmbedStyle"><Link to ="https://jsfiddle.net/winfish/s2u96kt7/9/" class="linkTitle">Clock ( JS )</Link></h2>
       <p class="p2Style">
-        Simple clock with JAVASCRIPT, HTML5 & CSS - Created thanks to <Link to="https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/">GeeksforGeeks</Link> tutorial. 
+        Simple clock with JAVASCRIPT, HTML5 & CSS - Created thanks to <Link class="linkQuote" to="https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/">GeeksforGeeks</Link> tutorial. 
       </p>
       <br />
-      <p class="codepen"
-         data-height="300"
-        data-default-tab="html,result"
-        data-slug-hash="jOzBOKL"
-        data-user="robbielukealderman"
-        style={{height: "300px",
-                boxSizing: "border-box",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "1em 0",
-                padding: "1em"}}>
-        <span>
-          <Link to="https://codepen.io/robbielukealderman/pen/jOzBOKL">
-            Clock w/ JS
-          </Link> 
-            by Rob 
-          <Link to="https://codepen.io/robbielukealderman">
-            @robbielukealderman 
-          </Link>
-            on
-          <Link to="https://codepen.io">
-            CodePen
-          </Link>.
-        </span>
-      </p>
-      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      <br /> <br />
-      <h2 class="h2pStyle">Stopwatch ( JS )</h2>
+      <iframe 
+        title="Simple Javascript Clock"
+        class="embedCodeStyle"
+        src="//jsfiddle.net/winfish/s2u96kt7/6/embedded/js,result"
+        allowfullscreen="allowfullscreen"
+        allowpaymentrequest frameborder="0">
+      </iframe>
+      <br /> <br /> <br />
+      <h2 class="h2pEmbedStyle">
+        <Link to="https://jsfiddle.net/winfish/3e9uz4vd/2/" class="linkTitle">Stopwatch(JS)</Link></h2>
       <p class="p2Style">
-        Simple stopwatch with JAVASCRIPT, HTML5 & CSS. 
+        Simple stopwatch with JAVASCRIPT, HTML5 & CSS. I am still learning javascript, this was completed following a tutorial I have since lost the link to.
       </p>
       <br />
-      <p class="codepen"
-         data-height="300"
-        data-default-tab="html,result"
-        data-slug-hash="XWVKggN"
-        data-user="robbielukealderman"
-        style={{height: "300px",
-                boxSizing: "border-box",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "1em 0",
-                padding: "1em"}}>
-        <span>
-          <Link to="https://codepen.io/robbielukealderman/pen/XWVKggN">
-            Stopwatch w/ JS
-          </Link> 
-            by Rob 
-          <Link to="https://codepen.io/robbielukealderman">
-            @robbielukealderman 
-          </Link>
-            on
-          <Link to="https://codepen.io">
-            CodePen
-          </Link>.
-        </span>
-      </p>
-      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> 
+      <iframe
+        class="embedCodeStyle"
+        title="Simple Javascript Stopwatch"
+        src="//jsfiddle.net/winfish/3e9uz4vd/1/embedded/js,result"
+        allowfullscreen="allowfullscreen"
+        allowpaymentrequest frameborder="0">
+      </iframe>
+      <br /><br />
     <Link to="/">
       <button class="buttonSP"
       style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
