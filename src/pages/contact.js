@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -65,6 +66,12 @@ const docLink = {
   color: "#8954A8",
 }
 
+const containerStyle = {
+  margin: "auto",
+  width: "75%",
+  display: "table",
+}
+
 
 // markup
 
@@ -101,9 +108,9 @@ export default function Home() {
       </Link>
     </li>
       </ul>
-    <div>
-  <h2 style={{marginLeft: "-15px",width: "35%",marginBottom: "20px", marginTop: "30px", margin: "auto", textAlign: "left"}}>Contact</h2>
-  <p style={{width: "35%",marginBottom: "10px", margin: "auto", textAlign: "left", fontSize: "16px",marginBottom: "25px"}}>
+    <div style={{containerStyle}}>
+  <h2 class="h2pStyle">Contact</h2>
+  <p class="p2Style">
     I love connecting and collaborating with like-minded people,
     building a team of creatives and completing a project as a team.
     However, if you are looking for advice, or help with a design project
@@ -124,7 +131,7 @@ export default function Home() {
   <button type="submit" class="buttonForm" style={{float: "left", marginBottom: "35px"}}>Send</button>
 </form>
 </div>
-  <h2 style={{width: "30%",marginTop: "45px", margin: "auto", marginTop: "20px", textAlign: "left"}}>My Details  </h2>
+  <h2 class="h2Style">My Details </h2>
     <p>
        <span class="email" style={{color: "black", fontWeight: 300,fontSize: 16,}}>
           <a href="mailto:robbielalderman@gmail.com">

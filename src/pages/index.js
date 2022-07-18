@@ -154,9 +154,11 @@ KEY POINTS : <br />
     <br />
     <br />
     <br />
-    <Link to="/"><button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
+    <Link to="/">
+      <button style={{fontWeight: 500, letterSpacing: -1, textTransform: "uppercase",}}>
     &nbsp; ↑ &nbsp;
-    </button></Link>
+    </button>
+    </Link>
     <br /> 
     <br />
     <br />

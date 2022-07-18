@@ -1,18 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
-@media screen and (min-width: 400px) and (max-width: 500px) {
 
-/*min screen res code: image sizes, text widths */
+@media screen and (min-width: 700px) { /* screen over 700px */
+  .p2Style {
+    font-size: 16px;
+    width: 40%;
+  }
+  .formContainer {
+    width: 40%;
+  }
 
 }
+
+@media screen and (max-width: 699px) { /* screen size lesser than 699px */
+  .p2Style {
+    font-size: 18px;
+    width: 70%;
+  }
+  .formContainer {
+    width: 70%;
+  }
+
+}
+
 *{
   text-align: center;
 }
 img{
   display: inline-block;
 }
-.formContainer {
+.h2pStyle {
+  margin-left: -15px;
   width: 40%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin: auto;
+  text-align: left;
+}
+.h2Style { 
+  width: 40%;
+  margin-top: 45px;
+  margin: auto;
+  text-align: left;
+}
+.p2Style {
+  margin: auto;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  display: block;
+}
+.formContainer {
   display: inline-block;
 }
 .contactForm {
@@ -124,8 +162,8 @@ ul .navBar {
 
 }
 .email {
-  width: 30%;
   margin: auto;
+  width: 40%;
   text-align: left;
   display: block;
 }
