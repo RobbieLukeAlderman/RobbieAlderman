@@ -113,7 +113,7 @@ export default function Home() {
       </li>
       <li class="navfix" style={descriptionStyle}>
         <Link class="navigationStyle" to="/pens/">
-          Pens
+        Snippets
         </Link>
       </li>
       <li class="navfix" style={descriptionStyle}>
@@ -197,16 +197,6 @@ export default function Home() {
     <br />
     <br />
 
-  <p class="codepen"
-  data-height="300"
-  data-default-tab="html,result"
-  data-slug-hash="jOzBOKL"
-  data-user="robbielukealderman"
-  style={{height: "300px", boxSizing: "border-box", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid", margin: "1em 0", padding: "1em"}}>
-  <span><Link to="https://codepen.io/robbielukealderman/pen/jOzBOKL">
-  Clock w/ JS</Link> by Rob <Link to="https://codepen.io/robbielukealderman">@robbielukealderman </Link>
-   on <Link to="https://codepen.io">CodePen</Link>.</span>
-</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
     <div class="footer">

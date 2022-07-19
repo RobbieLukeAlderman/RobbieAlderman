@@ -128,7 +128,7 @@ export default function Home() {
       </li>
       <li class="navfix" style={descriptionStyle}>
         <Link class="navigationStyle" to="/pens/">
-          Pens
+          Snippets
         </Link>
       </li>
       <li class="navfix" style={descriptionStyle}>
